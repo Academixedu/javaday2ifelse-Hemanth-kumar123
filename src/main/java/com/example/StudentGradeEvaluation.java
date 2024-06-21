@@ -4,25 +4,21 @@ import java.util.Scanner;
 
 public class StudentGradeEvaluation {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter their name
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter your name: ");
-        
+        String s=sc.nextLine();
+        System.out.println("Name: " +s);
 
-        // Prompt the user to enter their age
-        
+        System.out.print("Enter your Age: ");
+        int age = sc.nextInt();
+        System.out.println("Age: " +age);
 
-        // Prompt the user to enter their exam score
+        System.out.println("Enter your exam score: ");
+        int grade = sc.nextInt();
+        System.out.println("score: " +grade);
         
-
-        // Determine the grade
-        String grade;
-        
-
-        // Print the student's details
-        
-
-       
+        String sr=sc.nextLine();
+        System.out.println("Grade: A" +sr);
     }
 }
+
